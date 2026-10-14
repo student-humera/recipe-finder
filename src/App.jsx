@@ -65,7 +65,7 @@ return matchSearch && matchFavs
         </div>
 
 
-        <div className='mx-auto grid max-w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4'>
+        <div className='mx-auto grid max-w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3'>
 
         {filteredMeals.length === 0 && (
           <p className='py-10 text-center text-lg font-semibold text-red-800'>No recipes match found.</p>
